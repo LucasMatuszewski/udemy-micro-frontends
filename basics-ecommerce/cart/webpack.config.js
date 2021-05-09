@@ -13,6 +13,7 @@ module.exports = {
         './CartShow': './src/index',
       },
       shared: ['faker'],
+      // shared: { react: { singleton: true } },
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
